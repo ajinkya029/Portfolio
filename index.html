@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">MyPortfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h1>Hello, I'm <span>Ajinkya Dhatrak</span></h1>
+        <p>A Fresher Web Developer</p>
+        <button onclick="scrollToContact()">Hire Me</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a fresher web developer passionate about building responsive and
+            user-friendly websites. I love learning new technologies and improving my skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">C</div>
+            <div class="skill">C++</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Typescript</div>
+            <div class="skill">Git</div>
+            <div class="skill">Github</div>
+            <div class="skill">Tailwind CSS</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">React (Basic)</div>
+            <div class="skill">Node.js (Basic)</div>
+            <div class="skill">Express</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">PostgreSQL</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Ecommerce App</h3>
+                <p>A simple Ecommerce website using MERN stack.</p>
+                <div class="project-buttons">
+                <a href="https://ecommerce-app-frontend-0u7y.onrender.com" target="_blank" class="btn live">Live Preview</a>
+                <a href="https://github.com/ajinkya029/Ecommerce_App" target="_blank" class="btn code">Source Code</a>
+            </div>
+            </div>
+            <div class="project">
+                <h3>Chat App</h3>
+                <p>A simple Chat App using MERN stack.</p>
+                <div class="project-buttons">
+                <a href="https://chat-app-frontend-n9dw.onrender.com" target="_blank" class="btn live">Live Preview</a>
+                <a href="https://github.com/ajinkya029/Chat_App" target="_blank" class="btn code">Source Code</a>
+            </div>
+            </div>
+            <div class="project">
+                <h3>AI Image Generator</h3>
+                <p>AI Image Generator using MERN stack</p>
+                <div class="project-buttons">
+                <a href="https://ai-image-generator-frontend-0c5t.onrender.com" target="_blank" class="btn live">Live Preview</a>
+                <a href="https://github.com/ajinkya029/AI_Image_Generator" target="_blank" class="btn code">Source Code</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Ajinkya. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
